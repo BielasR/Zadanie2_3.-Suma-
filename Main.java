@@ -11,8 +11,11 @@ class Main
     
     System.out.println("Podaj b");
     int b = sc2.nextInt();
+
+    int p1 = (int)Math.pow(a,b);
+    int p2 = (int)Math.pow(b,a);
     
-    int suma = a + b;
-    System.out.println("Suma a i b równa się " + suma);
+    int suma = p1 + p2;
+    System.out.println("Suma a^b i b^a równa się " + suma);
   }
 }
